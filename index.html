@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://html5-templates.com/" />
     <title>Automation Testing</title>
+    <link rel="icon" href="image/VK_LOGO.jpg" type="image/x-icon">
     <meta name="description" content="Automation testing site">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sticky-menu.css" rel="stylesheet">
@@ -55,38 +56,49 @@
                         effective way to improve the effectiveness and coverage of the testing process. It came into
                         existence to speed up execution cycles, exempt testers from repetitive tasks, reduce human
                         efforts and provide instant feedback.</p>
-                    <p><b>Automation Framework</b> is not a single tool or process, but it is a collection of tools and 
-                        processes working together to support automated testing of any application. It integrates 
-                        various functions like libraries, test data, and various reusable modules.</p>
-                    <p>The automation framework not only offers the benefit of reusing the code in various scenarios, 
-                        but it also helps increases the team’s test speed and efficiency, improves test accuracy and 
-                        will reduce test maintenance costs as well as lower risks.</p>
-                    <p>Test automation framework is helpful when you need to execute the same test scripts multiple times 
-                        with different builds to examine the application and validate output. It is better to avoid automated 
-                        testing for functionality, which you used only once since building automation script itself is 
-                        time-consuming.</p>      
-                    <p>We are going to see different types of frameworks for below two testing.</p>
+                    <p><b>Automation Framework</b> is not a single tool or process, but it is a collection of tools and
+                        processes working together to support automated testing of any application. It integrates
+                        various functions like libraries, test data, and various reusable modules.
+                        The automation framework not only offers the benefit of reusing the code in various scenarios,
+                        but it also helps increases the team’s test speed and efficiency, improves test accuracy and
+                        will reduce test maintenance costs as well as lower risks. Test automation framework is helpful
+                        when you need to execute the same test scripts multiple times with different builds to examine
+                        the application and validate output. It is better to avoid automated testing for functionality,
+                        which you used only once since building automation script itself is time-consuming.</p>
+                    <p>Some of the most commonly used automation framework are listed below.</p>
                     <ul>
-                        <li>
-                          <p><b><a href="#webtesting">Web Testing: </b></a>is the process used to validate that a
-                                website application can meet specific functionality, security, usability, accessibility,
-                                visual, and performance criteria. Web testing is critical to the success of an
-                                application-catching key bugs before code is move to production.</p>
+                        <li><b>Data Driven testing framework</b> refers to the repeating of the same test case scenario
+                            using different data sets making the test case, data centric. As a result, a QA Engineer is
+                            able to test multiple scenarios using one single test case. A Data Driven script is
+                            parameterized,
+                            replacing hardcoded values with variables, in which the data may be loaded from a number of
+                            sources,
+                            including: the Gherkin file, text files, Excel files, CSV files and databases. Upon
+                            execution, the
+                            test case will read a data row, send that data to the script, and will repeat until there is
+                            no more
+                            data to be read</li>
+                        <li><b>Keyword Driven testing framework</b> uses an external file to reference the functionality
+                            of the
+                            script. Here main focus is on functionality, whereas in Data Driven testing focus in on
+                            data. We use
+                            a table format to define keywords/ action words for each function/ action that we would
+                            execute. It
+                            performs automation test scripts based on the keywords specified in the excel sheet. The
+                            logic is to
+                            read keywords and call the required function/ method mentioned in the external excel sheet.
                         </li>
-                        <li>
-                            <p><b><a href="#apitesting">API Testing: </b></a>API stands for Application Programming
-                                Interface. It is a type of software testing that aims to determine whether the APIs that
-                                are developed meet expectations when it comes to functionality, performance, reliability
-                                and security for an application.</p>
+                        <li><b>Behavior Driven Development</b> is a software development approach that allows the
+                            tester/business
+                            analyst to create test cases in simple text language. The simple language used in the
+                            scenarios
+                            help even non-technical team members to understand what is going on in the software project.
                         </li>
                     </ul>
-                    
-                    <p>Although test automation is hugely recommended, not all organizations readily embrace it in its
-                        entirety. A huge reason for this is the initial cost that comes with the configuration of the
-                        automated testing process. In addition, most organizational leaders tend to overlook this aspect
-                        and continuously place the issue on the back-burner.</p>
+                    <p>In the following sections we are going to see how these framework can be used in
+                        <a href="#webtesting"><b>Web Testing</b></a> &
+                        <a href="#apitesting"><b>API Testing</b></a></p>
                     <br>
-                    <div align="center"><a class="btn btn-primary page-scroll" href="#about">About me!</a></div>                
                 </div>
             </div>
         </div>
@@ -98,7 +110,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1><b>Web Automation Testing</b></h1><br>
-                    <img src="image/WEB_TESTING.jpg" alt="Web Testing" style="width:100%">                
+                    <img src="image/WEB_TESTING.jpg" alt="Web Testing" style="width:100%">
                 </div>
             </div>
         </div>
@@ -110,9 +122,30 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1><b>API Automation Testing</b></h1><br>
-                    <table><tr><td width="100%">
-                    <img src="image/API_TESTING.jpg" alt="API Testing" style="height:80%; width: 100%;">
-                </td></tr></table>
+                    <div class="row">
+                        <div class="column" align="left">
+                            <p><b>API (Application Programming Interface) Testing</b> is a type of software testing that
+                                aims to determine whether the APIs
+                                that are developed meet expectations when it comes to functionality, performance,
+                                reliability and security for an
+                                application.</p></br>
+                            <p>Below are the sample automation framework created for API testing.</p></br>
+                            <ul><b>
+                                    <li><a href="https://github.com/VinayKumarBM" target="_blank"
+                                            style="color: yellow;">
+                                            API framework (Rest Assured)</a></li>
+                                    <li><a href="https://github.com/VinayKumarBM" target="_blank"
+                                            style="color: yellow;">
+                                            BDD API framework (Rest Assured + Cucumber)</a></li>
+                                    <li><a href="https://github.com/VinayKumarBM" target="_blank"
+                                            style="color: yellow;">
+                                            BDD API framework (Serenity BDD)</a></li>
+                                </b></ul>
+                        </div>
+                        <div align="left" class="col-lg-8">
+                            <img src="image/API_TESTING.jpg" alt="API Testing" style="width: 100%;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,17 +165,20 @@
                             <h5>
                                 <p><strong>Name: </strong>Vinay Kumar B M</p>
                                 <p><strong>Role: </strong>Automation Test Lead</p>
-                                <p><strong>Description: </strong>I have more than 10 years of experience in IT industry, 
-                                    out of which around 5 years of it involves automation testing with Java, Selenium, 
-                                    protractor,  API testing with Rest Assured. I have also worked on AI & ML based 
-                                    automation platforms like Testim & TestProject. I'm very interested in learning 
+                                <p><strong>Description: </strong>I have more than 10 years of experience in IT industry,
+                                    out of which around 5 years of it involves automation testing with Java, Selenium,
+                                    protractor, API testing with Rest Assured. I have also worked on AI & ML based
+                                    automation platforms like Testim & TestProject. I'm very interested in learning
                                     new things and experiment stuffs in automation testing.</p>
-                                <p><strong>Email me: </strong><a href="mailto:bmvinayk@gmail.com?subject=Ask Vinay&body=Hi Vinay,">
-                                    bmvinayk@gmail.com</a></p>
-                                <p><strong>My github: </strong><a href="https://github.com/VinayKumarBM" target="_blank">
-                                    https://github.com/VinayKumarBM</a></p>
-                                <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/vinay-kumar-b-m-01907713/" 
-                                    target="_blank">Vinay Kumar BM LinkedIn</a></p>    
+                                <p><strong>Email me: </strong><a
+                                        href="mailto:bmvinayk@gmail.com?subject=Ask Vinay&body=Hi Vinay,">
+                                        bmvinayk@gmail.com</a></p>
+                                <p><strong>My github: </strong><a href="https://github.com/VinayKumarBM"
+                                        target="_blank">
+                                        https://github.com/VinayKumarBM</a></p>
+                                <p><strong>LinkedIn: </strong><a
+                                        href="https://www.linkedin.com/in/vinay-kumar-b-m-01907713/"
+                                        target="_blank">Vinay Kumar BM LinkedIn</a></p>
                             </h5>
                         </div>
                     </div>
@@ -164,4 +200,5 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/sticky-menu.js"></script>
 </body>
+
 </html>
