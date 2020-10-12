@@ -5,6 +5,13 @@
   padding: 0 8px;
 }
 
+.split {
+  float: left;
+  width: 50.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -39,4 +46,8 @@
     width: 100%;
     display: block;
   }
+}
+
+ul.list {
+  list-style-type: lower-alpha;
 }
