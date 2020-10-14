@@ -45,30 +45,42 @@ html {
 .welcome-section {
     height: 100%;
     padding-top: 100px;    
-    background: #000033;
-	text-align: left;
+    background-image: url("../image/blue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: left;
 	color: white;
 }
 .webtesting {
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    background: #000;
+    background-image: url("../image/dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	color: white;
 }
 .apitesting {
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    background: #000033;
+    background-image: url("../image/blue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	color: white;
 }
 .contact-section {
     height: 100%;
     padding-top: 100px;
-    text-align: center;
-    background: #000;
-	color: white;
+    text-align: center;    
+    color: white;
+    background-image: url("../image/dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
